@@ -1,0 +1,11 @@
+[project]
+name = "python-ebook-capturer"
+version = "0.1.0"
+description = "Capture the ebook desktop application which allow to switch page through keyboard"
+readme = "README.md"
+requires-python = "~=3.13"
+dependencies = [
+    "pillow==12.0.0",
+    "pyautogui==0.9.54",
+    "pygetwindow==0.0.9",
+]
